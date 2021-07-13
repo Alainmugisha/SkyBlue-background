@@ -27,7 +27,7 @@ public class Browserfactory {
 	}
 
 
-	//@After
+	
 	public static WebDriver closeBrowser() throws Throwable {
 		Thread.sleep(5000);
 		driver.close();
